@@ -22,3 +22,7 @@ app.listen(port, (err) => {
     console.log(`server is listening on ${port}`);
   }
 });
+
+const welcomeAll = (req, res) => {
+  res.send("Welcome all !");
+};
